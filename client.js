@@ -1,5 +1,5 @@
 let currentUser = null;
-const websocketURL = "ws://64.227.156.150:8765";
+const websocketURL = "wss://64.227.156.150:8765";
 let ws;
 
 function connectWebSocket() {
